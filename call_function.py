@@ -4,8 +4,7 @@ from functions.get_files_info import get_files_info, schema_get_files_info
 from functions.get_file_content import get_file_content, schema_get_file_content
 from functions.run_python import run_python_file, schema_run_python_file
 from functions.write_file_content import write_file, schema_write_file
-
-WORKING_DIR = "./calculator"
+from config import WORKING_DIR
 
 available_functions = types.Tool(
     function_declarations=[
